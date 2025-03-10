@@ -1,0 +1,254 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+.meme-image {
+  width: 50vh;
+  height: 50vh; 
+  object-fit: contain; 
+  display: block;
+  margin: auto;
+}
+
+.caption-button {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+/* src/pages/GamePage.css */
+.game-page {
+  padding: 20px;
+}
+
+
+.caption-button {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+
+
+.container {
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+
+
+
+/*HOME PAGE CSS*/
+
+/* App.css */
+
+
+.hero-section {
+ 
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.hero-image {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-size: 6vw;
+  font-weight: bold;
+  margin-top: 5px;
+  color: white;
+  opacity: 1;
+  background-color: purple;
+}
+.caption {
+  font-size: 4vw;
+  font-weight: bold;
+  margin-top: 1px;
+  color:  purple;
+  opacity: 1;
+  text-decoration: highlight;
+ }
+.hero-subtitle {
+    font-size: 1.5vw;
+    margin-bottom: 30px;
+    max-width: 80%;
+}
+
+.button-group {
+  margin-top: 150px;
+}
+
+
+
+.login-button {
+  margin-right: 10px;
+  height: 70%;
+  background-color: purple;
+  color: white;
+}
+
+.play-button {
+  border: 1px solid white;
+}
+
+.available-on {
+  margin-top: 20px;
+}
+
+.platform-icons img {
+  width: 5vx;
+  margin: 0 10px;
+}
+
+
+/* Login page ****/
+
+body {
+  background: url('/BachG.jpg') no-repeat center center fixed;
+  background-size: cover;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #d80707;
+}
+
+.login-page {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+
+
+.login-container {
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+.login-container h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.form-control-lg {
+  font-size: 2rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.btn-lg {
+  font-size: 1.25rem;
+  padding: 0.75rem 1.25rem;
+}
+
+
+.login-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-button{
+ background-color: purple;
+
+}
+
+
+
+/* Game page */
+.game-page{
+  background-color: white;
+  background-image: none;
+}
+
+
+.caption{
+    background-color: white; /* or any color you prefer */
+    font-size: 4vh;
+  
+  
+}
+
+.profile-container{
+  background-color: #ddd;
+  height: 70vh;
+  width: 70vh;
+}
+
+.history-container{
+  background-color: #ddd;
+  height: 150vh;
+  width: 150vh;
+
+}
+
+.play-button-prof{
+  margin-bottom: 4vh;
+}
+
+/* .container-home{
+  background-color: rgb(243, 249, 249);
+} */

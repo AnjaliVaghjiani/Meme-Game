@@ -1,0 +1,42 @@
+/* body {
+    background-size: cover;
+    overflow: hidden;
+  } */
+  
+  /* .game-page {
+    position: relative;
+    height: 70vh;
+    width: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a6e4f4;
+    color: blueviolet;
+  }
+   */
+ 
+  
+.meme-image {
+    border-radius: 10px;
+  }
+  
+  .caption-button {
+    font-size: 1.25rem;
+    padding: 10px 20px;
+    text-align: left;
+    white-space: normal;
+    color: black;
+    margin-top: 5px;
+
+  }  
+  
+  .allcaption{
+    margin-right: 10px;
+  }
+
+  button[disabled] {
+    pointer-events: none;
+  }
+ .get-Meme{
+  background-color: purple;
+ }
